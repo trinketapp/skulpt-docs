@@ -1,0 +1,18 @@
+{
+  "prefixMethods": true,
+  "objectMethods": [
+    {
+      "name": "read",
+      "docs": "no Python documentation found for 'urllib.request.read'\n\n"
+    },
+    {
+      "name": "readline",
+      "docs": "no Python documentation found for 'urllib.request.readline'\n\n"
+    },
+    {
+      "name": "readlines",
+      "docs": "no Python documentation found for 'urllib.request.readlines'\n\n"
+    }
+  ],
+  "classMethods": []
+}

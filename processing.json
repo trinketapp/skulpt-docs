@@ -1,0 +1,191 @@
+{
+  "prefixMethods": true,
+  "objectMethods": [
+    {
+      "name": "arc",
+      "docs": "no Python documentation found for 'processing.arc'\n\n"
+    },
+    {
+      "name": "background",
+      "docs": "no Python documentation found for 'processing.background'\n\n"
+    },
+    {
+      "name": "blue",
+      "docs": "no Python documentation found for 'processing.blue'\n\n"
+    },
+    {
+      "name": "colorMode",
+      "docs": "no Python documentation found for 'processing.colorMode'\n\n"
+    },
+    {
+      "name": "ellipse",
+      "docs": "no Python documentation found for 'processing.ellipse'\n\n"
+    },
+    {
+      "name": "ellipseMode",
+      "docs": "no Python documentation found for 'processing.ellipseMode'\n\n"
+    },
+    {
+      "name": "exitp",
+      "docs": "no Python documentation found for 'processing.exitp'\n\n"
+    },
+    {
+      "name": "fill",
+      "docs": "no Python documentation found for 'processing.fill'\n\n"
+    },
+    {
+      "name": "frameRate",
+      "docs": "no Python documentation found for 'processing.frameRate'\n\n"
+    },
+    {
+      "name": "get",
+      "docs": "no Python documentation found for 'processing.get'\n\n"
+    },
+    {
+      "name": "green",
+      "docs": "no Python documentation found for 'processing.green'\n\n"
+    },
+    {
+      "name": "image",
+      "docs": "no Python documentation found for 'processing.image'\n\n"
+    },
+    {
+      "name": "line",
+      "docs": "no Python documentation found for 'processing.line'\n\n"
+    },
+    {
+      "name": "loadImage",
+      "docs": "no Python documentation found for 'processing.loadImage'\n\n"
+    },
+    {
+      "name": "loadPixels",
+      "docs": "no Python documentation found for 'processing.loadPixels'\n\n"
+    },
+    {
+      "name": "loop",
+      "docs": "no Python documentation found for 'processing.loop'\n\n"
+    },
+    {
+      "name": "mouseX",
+      "docs": "no Python documentation found for 'processing.mouseX'\n\n"
+    },
+    {
+      "name": "mouseY",
+      "docs": "no Python documentation found for 'processing.mouseY'\n\n"
+    },
+    {
+      "name": "noFill",
+      "docs": "no Python documentation found for 'processing.noFill'\n\n"
+    },
+    {
+      "name": "noLoop",
+      "docs": "no Python documentation found for 'processing.noLoop'\n\n"
+    },
+    {
+      "name": "noSmooth",
+      "docs": "no Python documentation found for 'processing.noSmooth'\n\n"
+    },
+    {
+      "name": "noStroke",
+      "docs": "no Python documentation found for 'processing.noStroke'\n\n"
+    },
+    {
+      "name": "point",
+      "docs": "no Python documentation found for 'processing.point'\n\n"
+    },
+    {
+      "name": "quad",
+      "docs": "no Python documentation found for 'processing.quad'\n\n"
+    },
+    {
+      "name": "rect",
+      "docs": "no Python documentation found for 'processing.rect'\n\n"
+    },
+    {
+      "name": "rectMode",
+      "docs": "no Python documentation found for 'processing.rectMode'\n\n"
+    },
+    {
+      "name": "red",
+      "docs": "no Python documentation found for 'processing.red'\n\n"
+    },
+    {
+      "name": "rotate",
+      "docs": "no Python documentation found for 'processing.rotate'\n\n"
+    },
+    {
+      "name": "run",
+      "docs": "no Python documentation found for 'processing.run'\n\n"
+    },
+    {
+      "name": "scale",
+      "docs": "no Python documentation found for 'processing.scale'\n\n"
+    },
+    {
+      "name": "set",
+      "docs": "no Python documentation found for 'processing.set'\n\n"
+    },
+    {
+      "name": "size",
+      "docs": "no Python documentation found for 'processing.size'\n\n"
+    },
+    {
+      "name": "smooth",
+      "docs": "no Python documentation found for 'processing.smooth'\n\n"
+    },
+    {
+      "name": "stroke",
+      "docs": "no Python documentation found for 'processing.stroke'\n\n"
+    },
+    {
+      "name": "strokeCap",
+      "docs": "no Python documentation found for 'processing.strokeCap'\n\n"
+    },
+    {
+      "name": "strokeJoin",
+      "docs": "no Python documentation found for 'processing.strokeJoin'\n\n"
+    },
+    {
+      "name": "strokeWeight",
+      "docs": "no Python documentation found for 'processing.strokeWeight'\n\n"
+    },
+    {
+      "name": "text",
+      "docs": "no Python documentation found for 'processing.text'\n\n"
+    },
+    {
+      "name": "translate",
+      "docs": "no Python documentation found for 'processing.translate'\n\n"
+    },
+    {
+      "name": "triangle",
+      "docs": "no Python documentation found for 'processing.triangle'\n\n"
+    }
+  ],
+  "classMethods": [
+    {
+      "name": "Mouse",
+      "docs": "no Python documentation found for 'processing.Mouse'\n\n"
+    },
+    {
+      "name": "Keyboard",
+      "docs": "no Python documentation found for 'processing.Keyboard'\n\n"
+    },
+    {
+      "name": "Environment",
+      "docs": "no Python documentation found for 'processing.Environment'\n\n"
+    },
+    {
+      "name": "Screen",
+      "docs": "no Python documentation found for 'processing.Screen'\n\n"
+    },
+    {
+      "name": "color",
+      "docs": "no Python documentation found for 'processing.color'\n\n"
+    },
+    {
+      "name": "PImage",
+      "docs": "no Python documentation found for 'processing.PImage'\n\n"
+    }
+  ]
+}

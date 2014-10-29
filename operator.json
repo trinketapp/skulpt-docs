@@ -1,0 +1,142 @@
+{
+  "prefixMethods": true,
+  "objectMethods": [
+    {
+      "name": "abs",
+      "docs": "Help on built-in function abs in operator:\n\noperator.abs = abs(...)\n    abs(a) -- Same as abs(a).\n\n"
+    },
+    {
+      "name": "add",
+      "docs": "Help on built-in function add in operator:\n\noperator.add = add(...)\n    add(a, b) -- Same as a + b.\n\n"
+    },
+    {
+      "name": "and_",
+      "docs": "Help on built-in function and_ in operator:\n\noperator.and_ = and_(...)\n    and_(a, b) -- Same as a & b.\n\n"
+    },
+    {
+      "name": "concat",
+      "docs": "Help on built-in function concat in operator:\n\noperator.concat = concat(...)\n    concat(a, b) -- Same as a + b, for a and b sequences.\n\n"
+    },
+    {
+      "name": "contains",
+      "docs": "Help on built-in function contains in operator:\n\noperator.contains = contains(...)\n    contains(a, b) -- Same as b in a (note reversed operands).\n\n"
+    },
+    {
+      "name": "countOf",
+      "docs": "Help on built-in function countOf in operator:\n\noperator.countOf = countOf(...)\n    countOf(a, b) -- Return the number of times b occurs in a.\n\n"
+    },
+    {
+      "name": "delitem",
+      "docs": "Help on built-in function delitem in operator:\n\noperator.delitem = delitem(...)\n    delitem(a, b) -- Same as del a[b].\n\n"
+    },
+    {
+      "name": "div",
+      "docs": "Help on built-in function div in operator:\n\noperator.div = div(...)\n    div(a, b) -- Same as a / b when __future__.division is not in effect.\n\n"
+    },
+    {
+      "name": "eq",
+      "docs": "Help on built-in function eq in operator:\n\noperator.eq = eq(...)\n    eq(a, b) -- Same as a==b.\n\n"
+    },
+    {
+      "name": "floordiv",
+      "docs": "Help on built-in function floordiv in operator:\n\noperator.floordiv = floordiv(...)\n    floordiv(a, b) -- Same as a // b.\n\n"
+    },
+    {
+      "name": "ge",
+      "docs": "Help on built-in function ge in operator:\n\noperator.ge = ge(...)\n    ge(a, b) -- Same as a>=b.\n\n"
+    },
+    {
+      "name": "getitem",
+      "docs": "Help on built-in function getitem in operator:\n\noperator.getitem = getitem(...)\n    getitem(a, b) -- Same as a[b].\n\n"
+    },
+    {
+      "name": "gt",
+      "docs": "Help on built-in function gt in operator:\n\noperator.gt = gt(...)\n    gt(a, b) -- Same as a>b.\n\n"
+    },
+    {
+      "name": "index",
+      "docs": "Help on built-in function index in operator:\n\noperator.index = index(...)\n    index(a) -- Same as a.__index__()\n\n"
+    },
+    {
+      "name": "indexOf",
+      "docs": "Help on built-in function indexOf in operator:\n\noperator.indexOf = indexOf(...)\n    indexOf(a, b) -- Return the first index of b in a.\n\n"
+    },
+    {
+      "name": "inv",
+      "docs": "Help on built-in function inv in operator:\n\noperator.inv = inv(...)\n    inv(a) -- Same as ~a.\n\n"
+    },
+    {
+      "name": "is_",
+      "docs": "Help on built-in function is_ in operator:\n\noperator.is_ = is_(...)\n    is_(a, b) -- Same as a is b.\n\n"
+    },
+    {
+      "name": "is_not",
+      "docs": "Help on built-in function is_not in operator:\n\noperator.is_not = is_not(...)\n    is_not(a, b) -- Same as a is not b.\n\n"
+    },
+    {
+      "name": "le",
+      "docs": "Help on built-in function le in operator:\n\noperator.le = le(...)\n    le(a, b) -- Same as a<=b.\n\n"
+    },
+    {
+      "name": "lshift",
+      "docs": "Help on built-in function lshift in operator:\n\noperator.lshift = lshift(...)\n    lshift(a, b) -- Same as a << b.\n\n"
+    },
+    {
+      "name": "lt",
+      "docs": "Help on built-in function lt in operator:\n\noperator.lt = lt(...)\n    lt(a, b) -- Same as a<b.\n\n"
+    },
+    {
+      "name": "mod",
+      "docs": "Help on built-in function mod in operator:\n\noperator.mod = mod(...)\n    mod(a, b) -- Same as a % b.\n\n"
+    },
+    {
+      "name": "mul",
+      "docs": "Help on built-in function mul in operator:\n\noperator.mul = mul(...)\n    mul(a, b) -- Same as a * b.\n\n"
+    },
+    {
+      "name": "ne",
+      "docs": "Help on built-in function ne in operator:\n\noperator.ne = ne(...)\n    ne(a, b) -- Same as a!=b.\n\n"
+    },
+    {
+      "name": "neg",
+      "docs": "Help on built-in function neg in operator:\n\noperator.neg = neg(...)\n    neg(a) -- Same as -a.\n\n"
+    },
+    {
+      "name": "not_",
+      "docs": "Help on built-in function not_ in operator:\n\noperator.not_ = not_(...)\n    not_(a) -- Same as not a.\n\n"
+    },
+    {
+      "name": "or_",
+      "docs": "Help on built-in function or_ in operator:\n\noperator.or_ = or_(...)\n    or_(a, b) -- Same as a | b.\n\n"
+    },
+    {
+      "name": "pos",
+      "docs": "Help on built-in function pos in operator:\n\noperator.pos = pos(...)\n    pos(a) -- Same as +a.\n\n"
+    },
+    {
+      "name": "pow",
+      "docs": "Help on built-in function pow in operator:\n\noperator.pow = pow(...)\n    pow(a, b) -- Same as a ** b.\n\n"
+    },
+    {
+      "name": "rshift",
+      "docs": "Help on built-in function rshift in operator:\n\noperator.rshift = rshift(...)\n    rshift(a, b) -- Same as a >> b.\n\n"
+    },
+    {
+      "name": "setitem",
+      "docs": "Help on built-in function setitem in operator:\n\noperator.setitem = setitem(...)\n    setitem(a, b, c) -- Same as a[b] = c.\n\n"
+    },
+    {
+      "name": "sub",
+      "docs": "Help on built-in function sub in operator:\n\noperator.sub = sub(...)\n    sub(a, b) -- Same as a - b.\n\n"
+    },
+    {
+      "name": "truth",
+      "docs": "Help on built-in function truth in operator:\n\noperator.truth = truth(...)\n    truth(a) -- Return True if a is true, False otherwise.\n\n"
+    },
+    {
+      "name": "xor",
+      "docs": "Help on built-in function xor in operator:\n\noperator.xor = xor(...)\n    xor(a, b) -- Same as a ^ b.\n\n"
+    }
+  ],
+  "classMethods": []
+}

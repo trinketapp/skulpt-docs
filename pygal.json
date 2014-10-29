@@ -1,0 +1,62 @@
+{
+  "prefixMethods": true,
+  "overview": "pygal is a dynamic charting library for python. A variety of chart types are available including: <ul><li>Line</li><li>StackedLine</li><li>Bar</li><li>StackedBar</li><li>HorizontalBar</li><li>StackedHorizontalBar</li><li>XY</li><li>Radar</li><li>Pie</li></ul>We've included an example of each chart type below.",
+  "example": "",
+  "objectMethods": [
+    {
+      "name": "Line",
+      "docs": "",
+      "linked_example": "",
+      "inline_example": "import pygal\nline_chart = pygal.Line()\nline_chart.title = 'Browser usage evolution (in %)'\nline_chart.x_labels = map(str, range(2002, 2013))\nline_chart.add('Firefox', [None, None, 0, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])\nline_chart.add('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])\nline_chart.add('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])\nline_chart.add('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])\nline_chart.render()"
+    },
+    {
+      "name": "StackedLine",
+      "docs": "",
+      "linked_example": "",
+      "inline_example": "import pygal\nstackedline_chart = pygal.StackedLine(fill=True)\nstackedline_chart.title = 'Browser usage evolution (in %)'\nstackedline_chart.x_labels = map(str, range(2002, 2013))\nstackedline_chart.add('Firefox', [None, None, 0, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])\nstackedline_chart.add('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])\nstackedline_chart.add('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])\nstackedline_chart.add('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])\nstackedline_chart.render()"
+    },
+    {
+      "name": "Bar",
+      "docs": "",
+      "inline_example": "import pygal\nbar_chart = pygal.Bar()\nbar_chart.title = 'Browser usage evolution (in %)'\nbar_chart.x_labels = map(str, range(2002, 2013))\nbar_chart.add('Firefox', [None, None, 0, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])\nbar_chart.add('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])\nbar_chart.add('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])\nbar_chart.add('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])\nbar_chart.render()"
+    },
+    {
+      "name": "StackedBar",
+      "docs": "",
+      "inline_example": "import pygal\nstackedbar_chart = pygal.StackedBar()\nstackedbar_chart.title = 'Browser usage evolution (in %)'\nstackedbar_chart.x_labels = map(str, range(2002, 2013))\nstackedbar_chart.add('Firefox', [None, None, 0, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])\nstackedbar_chart.add('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])\nstackedbar_chart.add('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])\nstackedbar_chart.add('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])\nstackedbar_chart.render()"
+    },
+    {
+      "name": "HorizontalBar",
+      "docs": "",
+      "inline_example": "import pygal\nhorizontalbar_chart = pygal.HorizontalBar()\nhorizontalbar_chart.title = 'Browser usage in February 2012 (in %)'\nhorizontalbar_chart.add('IE', 19.5)\nhorizontalbar_chart.add('Firefox', 36.6)\nhorizontalbar_chart.add('Chrome', 36.3)\nhorizontalbar_chart.add('Safari', 4.5)\nhorizontalbar_chart.add('Opera', 2.3)\nhorizontalbar_chart.render()"
+    },
+    {
+      "name": "StackedHorizontalBar",
+      "docs": ""
+    },
+    {
+      "name": "XY",
+      "docs": "",
+      "inline_example": "import pygal\nfrom math import cos\nxy_chart = pygal.XY()\nxy_chart.title = 'XY Cosinus'\nxy_chart.add('x = cos(y)', [(cos(x / 10.), x / 10.) for x in range(-50, 50, 5)])\nxy_chart.add('y = cos(x)', [(x / 10., cos(x / 10.)) for x in range(-50, 50, 5)])\nxy_chart.add('x = 1',  [(1, -5), (1, 5)])\nxy_chart.add('x = -1', [(-1, -5), (-1, 5)])\nxy_chart.add('y = 1',  [(-5, 1), (5, 1)])\nxy_chart.add('y = -1', [(-5, -1), (5, -1)])\nxy_chart.render()"
+    },
+    {
+      "name": "Radar",
+      "docs": "",
+      "inline_example": "import pygal\nradar_chart = pygal.Radar()\nradar_chart.title = 'V8 benchmark results'\nradar_chart.x_labels = ['Richards', 'DeltaBlue', 'Crypto', 'RayTrace', 'EarleyBoyer', 'RegExp', 'Splay', 'NavierStokes']\nradar_chart.add('Chrome', [6395, 8212, 7520, 7218, 12464, 1660, 2123, 8607])\nradar_chart.add('Firefox', [7473, 8099, 11700, 2651, 6361, 1044, 3797, 9450])\nradar_chart.add('Opera', [3472, 2933, 4203, 5229, 5810, 1828, 9013, 4669])\nradar_chart.add('IE', [43, 41, 59, 79, 144, 136, 34, 102])\nradar_chart.render()"
+    },
+    {
+      "name": "Pie",
+      "docs": "",
+      "inline_example": "import pygal\npie_chart = pygal.Pie()\npie_chart.title = 'Browser usage in February 2012 (in %)'\npie_chart.add('IE', 19.5)\npie_chart.add('Firefox', 36.6)\npie_chart.add('Chrome', 36.3)\npie_chart.add('Safari', 4.5)\npie_chart.add('Opera', 2.3)\npie_chart.render()"
+    },
+    {
+      "name": "add",
+      "docs": ""
+    },
+    {
+      "name": "render",
+      "docs": ""
+    }
+  ],
+  "classMethods": []
+}

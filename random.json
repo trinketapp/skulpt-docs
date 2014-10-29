@@ -1,0 +1,30 @@
+{
+  "prefixMethods": true,
+  "objectMethods": [
+    {
+      "name": "choice",
+      "docs": "Help on method choice in random:\n\nrandom.choice = choice(self, seq) method of random.Random instance\n    Choose a random element from a non-empty sequence.\n\n"
+    },
+    {
+      "name": "randint",
+      "docs": "Help on method randint in random:\n\nrandom.randint = randint(self, a, b) method of random.Random instance\n    Return random integer in range [a, b], including both end points.\n\n"
+    },
+    {
+      "name": "random",
+      "docs": "Help on built-in function random in random:\n\nrandom.random = random(...)\n    random() -> x in the interval [0, 1).\n\n"
+    },
+    {
+      "name": "randrange",
+      "docs": "Help on method randrange in random:\n\nrandom.randrange = randrange(self, start, stop=None, step=1, _int=<type 'int'>, _maxwidth=9007199254740992L) method of random.Random instance\n    Choose a random item from range(start, stop[, step]).\n    \n    This fixes the problem with randint() which includes the\n    endpoint; in Python this is usually not what you want.\n\n"
+    },
+    {
+      "name": "seed",
+      "docs": "Help on method seed in random:\n\nrandom.seed = seed(self, a=None) method of random.Random instance\n    Initialize internal state from hashable object.\n    \n    None or no argument seeds from current time or from an operating\n    system specific randomness source if available.\n    \n    If a is not None or an int or long, hash(a) is used instead.\n\n"
+    },
+    {
+      "name": "shuffle",
+      "docs": "Help on method shuffle in random:\n\nrandom.shuffle = shuffle(self, x, random=None) method of random.Random instance\n    x, random=random.random -> shuffle list x in place; return None.\n    \n    Optional arg random is a 0-argument function returning a random\n    float in [0.0, 1.0); by default, the standard random.random.\n\n"
+    }
+  ],
+  "classMethods": []
+}

@@ -1,0 +1,12 @@
+{
+  "prefixMethods": true,
+  "overview": "",
+  "objectMethods": [
+    {
+      "name": "time",
+      "docs": "Help on built-in function time in time:\n\ntime.time = time(...)\n    time() -> floating point number\n    \n    Return the current time in seconds since the Epoch.\n    Fractions of a second may be present if the system clock provides them.\n\n",
+      "inline_example": "import time\n\nprint time.time()"
+    }
+  ],
+  "classMethods": []
+}

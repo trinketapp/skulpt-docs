@@ -1,0 +1,110 @@
+{
+  "prefixMethods": true,
+  "objectMethods": [
+    {
+      "name": "acos",
+      "docs": "Help on built-in function acos in math:\n\nmath.acos = acos(...)\n    acos(x)\n    \n    Return the arc cosine (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "acosh",
+      "docs": "Help on built-in function acosh in math:\n\nmath.acosh = acosh(...)\n    acosh(x)\n    \n    Return the hyperbolic arc cosine (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "asin",
+      "docs": "Help on built-in function asin in math:\n\nmath.asin = asin(...)\n    asin(x)\n    \n    Return the arc sine (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "asinh",
+      "docs": "Help on built-in function asinh in math:\n\nmath.asinh = asinh(...)\n    asinh(x)\n    \n    Return the hyperbolic arc sine (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "atan",
+      "docs": "Help on built-in function atan in math:\n\nmath.atan = atan(...)\n    atan(x)\n    \n    Return the arc tangent (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "atan2",
+      "docs": "Help on built-in function atan2 in math:\n\nmath.atan2 = atan2(...)\n    atan2(y, x)\n    \n    Return the arc tangent (measured in radians) of y/x.\n    Unlike atan(y/x), the signs of both x and y are considered.\n\n"
+    },
+    {
+      "name": "atanh",
+      "docs": "Help on built-in function atanh in math:\n\nmath.atanh = atanh(...)\n    atanh(x)\n    \n    Return the hyperbolic arc tangent (measured in radians) of x.\n\n"
+    },
+    {
+      "name": "ceil",
+      "docs": "Help on built-in function ceil in math:\n\nmath.ceil = ceil(...)\n    ceil(x)\n    \n    Return the ceiling of x as a float.\n    This is the smallest integral value >= x.\n\n"
+    },
+    {
+      "name": "cos",
+      "docs": "Help on built-in function cos in math:\n\nmath.cos = cos(...)\n    cos(x)\n    \n    Return the cosine of x (measured in radians).\n\n"
+    },
+    {
+      "name": "cosh",
+      "docs": "Help on built-in function cosh in math:\n\nmath.cosh = cosh(...)\n    cosh(x)\n    \n    Return the hyperbolic cosine of x.\n\n"
+    },
+    {
+      "name": "degrees",
+      "docs": "Help on built-in function degrees in math:\n\nmath.degrees = degrees(...)\n    degrees(x)\n    \n    Convert angle x from radians to degrees.\n\n"
+    },
+    {
+      "name": "exp",
+      "docs": "Help on built-in function exp in math:\n\nmath.exp = exp(...)\n    exp(x)\n    \n    Return e raised to the power of x.\n\n"
+    },
+    {
+      "name": "fabs",
+      "docs": "Help on built-in function fabs in math:\n\nmath.fabs = fabs(...)\n    fabs(x)\n    \n    Return the absolute value of the float x.\n\n"
+    },
+    {
+      "name": "factorial",
+      "docs": "Help on built-in function factorial in math:\n\nmath.factorial = factorial(...)\n    factorial(x) -> Integral\n    \n    Find x!. Raise a ValueError if x is negative or non-integral.\n\n"
+    },
+    {
+      "name": "floor",
+      "docs": "Help on built-in function floor in math:\n\nmath.floor = floor(...)\n    floor(x)\n    \n    Return the floor of x as a float.\n    This is the largest integral value <= x.\n\n"
+    },
+    {
+      "name": "hypot",
+      "docs": "Help on built-in function hypot in math:\n\nmath.hypot = hypot(...)\n    hypot(x, y)\n    \n    Return the Euclidean distance, sqrt(x*x + y*y).\n\n"
+    },
+    {
+      "name": "log",
+      "docs": "Help on built-in function log in math:\n\nmath.log = log(...)\n    log(x[, base])\n    \n    Return the logarithm of x to the given base.\n    If the base not specified, returns the natural logarithm (base e) of x.\n\n"
+    },
+    {
+      "name": "log10",
+      "docs": "Help on built-in function log10 in math:\n\nmath.log10 = log10(...)\n    log10(x)\n    \n    Return the base 10 logarithm of x.\n\n"
+    },
+    {
+      "name": "pow",
+      "docs": "Help on built-in function pow in math:\n\nmath.pow = pow(...)\n    pow(x, y)\n    \n    Return x**y (x to the power of y).\n\n"
+    },
+    {
+      "name": "radians",
+      "docs": "Help on built-in function radians in math:\n\nmath.radians = radians(...)\n    radians(x)\n    \n    Convert angle x from degrees to radians.\n\n"
+    },
+    {
+      "name": "sin",
+      "docs": "Help on built-in function sin in math:\n\nmath.sin = sin(...)\n    sin(x)\n    \n    Return the sine of x (measured in radians).\n\n"
+    },
+    {
+      "name": "sinh",
+      "docs": "Help on built-in function sinh in math:\n\nmath.sinh = sinh(...)\n    sinh(x)\n    \n    Return the hyperbolic sine of x.\n\n"
+    },
+    {
+      "name": "sqrt",
+      "docs": "Help on built-in function sqrt in math:\n\nmath.sqrt = sqrt(...)\n    sqrt(x)\n    \n    Return the square root of x.\n\n"
+    },
+    {
+      "name": "tan",
+      "docs": "Help on built-in function tan in math:\n\nmath.tan = tan(...)\n    tan(x)\n    \n    Return the tangent of x (measured in radians).\n\n"
+    },
+    {
+      "name": "tanh",
+      "docs": "Help on built-in function tanh in math:\n\nmath.tanh = tanh(...)\n    tanh(x)\n    \n    Return the hyperbolic tangent of x.\n\n"
+    },
+    {
+      "name": "trunc",
+      "docs": "Help on built-in function trunc in math:\n\nmath.trunc = trunc(...)\n    trunc(x:Real) -> Integral\n    \n    Truncates x to the nearest Integral toward 0. Uses the __trunc__ magic method.\n\n"
+    }
+  ],
+  "classMethods": []
+}

@@ -1,0 +1,137 @@
+{
+  "prefixMethods": false,
+  "objectMethods": [
+    {
+      "name": "range",
+      "docs": "Help on built-in function range in module __builtin__:\n\nrange(...)\n    range(stop) -> list of integers\n    range(start, stop[, step]) -> list of integers\n    \n    Return a list containing an arithmetic progression of integers.\n    range(i, j) returns [i, i+1, i+2, ..., j-1]; start (!) defaults to 0.\n    When step is given, it specifies the increment (or decrement).\n    For example, range(4) returns [0, 1, 2, 3].  The end point is omitted!\n    These are exactly the valid indices for a list of 4 elements.\n\n"
+    },
+    {
+      "name": "round",
+      "docs": "Help on built-in function round in module __builtin__:\n\nround(...)\n    round(number[, ndigits]) -> floating point number\n    \n    Round a number to a given precision in decimal digits (default 0 digits).\n    This always returns a floating point number.  Precision may be negative.\n\n"
+    },
+    {
+      "name": "len",
+      "docs": "Help on built-in function len in module __builtin__:\n\nlen(...)\n    len(object) -> integer\n    \n    Return the number of items of a sequence or mapping.\n\n"
+    },
+    {
+      "name": "min",
+      "docs": "Help on built-in function min in module __builtin__:\n\nmin(...)\n    min(iterable[, key=func]) -> value\n    min(a, b, c, ...[, key=func]) -> value\n    \n    With a single iterable argument, return its smallest item.\n    With two or more arguments, return the smallest argument.\n\n"
+    },
+    {
+      "name": "max",
+      "docs": "Help on built-in function max in module __builtin__:\n\nmax(...)\n    max(iterable[, key=func]) -> value\n    max(a, b, c, ...[, key=func]) -> value\n    \n    With a single iterable argument, return its largest item.\n    With two or more arguments, return the largest argument.\n\n"
+    },
+    {
+      "name": "any",
+      "docs": "Help on built-in function any in module __builtin__:\n\nany(...)\n    any(iterable) -> bool\n    \n    Return True if bool(x) is True for any x in the iterable.\n    If the iterable is empty, return False.\n\n"
+    },
+    {
+      "name": "all",
+      "docs": "Help on built-in function all in module __builtin__:\n\nall(...)\n    all(iterable) -> bool\n    \n    Return True if bool(x) is True for all values x in the iterable.\n    If the iterable is empty, return True.\n\n"
+    },
+    {
+      "name": "sum",
+      "docs": "Help on built-in function sum in module __builtin__:\n\nsum(...)\n    sum(sequence[, start]) -> value\n    \n    Return the sum of a sequence of numbers (NOT strings) plus the value\n    of parameter 'start' (which defaults to 0).  When the sequence is\n    empty, return start.\n\n"
+    },
+    {
+      "name": "zip",
+      "docs": "Help on built-in function zip in module __builtin__:\n\nzip(...)\n    zip(seq1 [, seq2 [...]]) -> [(seq1[0], seq2[0] ...), (...)]\n    \n    Return a list of tuples, where each tuple contains the i-th element\n    from each of the argument sequences.  The returned list is truncated\n    in length to the length of the shortest argument sequence.\n\n"
+    },
+    {
+      "name": "abs",
+      "docs": "Help on built-in function abs in module __builtin__:\n\nabs(...)\n    abs(number) -> number\n    \n    Return the absolute value of the argument.\n\n"
+    },
+    {
+      "name": "ord",
+      "docs": "Help on built-in function ord in module __builtin__:\n\nord(...)\n    ord(c) -> integer\n    \n    Return the integer ordinal of a one-character string.\n\n"
+    },
+    {
+      "name": "chr",
+      "docs": "Help on built-in function chr in module __builtin__:\n\nchr(...)\n    chr(i) -> character\n    \n    Return a string of one character with ordinal i; 0 <= i < 256.\n\n"
+    },
+    {
+      "name": "hex",
+      "docs": "Help on built-in function hex in module __builtin__:\n\nhex(...)\n    hex(number) -> string\n    \n    Return the hexadecimal representation of an integer or long integer.\n\n"
+    },
+    {
+      "name": "oct",
+      "docs": "Help on built-in function oct in module __builtin__:\n\noct(...)\n    oct(number) -> string\n    \n    Return the octal representation of an integer or long integer.\n\n"
+    },
+    {
+      "name": "bin",
+      "docs": "Help on built-in function bin in module __builtin__:\n\nbin(...)\n    bin(number) -> string\n    \n    Return the binary representation of an integer or long integer.\n\n"
+    },
+    {
+      "name": "dir",
+      "docs": "Help on built-in function dir in module __builtin__:\n\ndir(...)\n    dir([object]) -> list of strings\n    \n    If called without an argument, return the names in the current scope.\n    Else, return an alphabetized list of names comprising (some of) the attributes\n    of the given object, and of attributes reachable from it.\n    If the object supplies a method named __dir__, it will be used; otherwise\n    the default dir() logic is used and returns:\n      for a module object: the module's attributes.\n      for a class object:  its attributes, and recursively the attributes\n        of its bases.\n      for any other object: its attributes, its class's attributes, and\n        recursively the attributes of its class's base classes.\n\n"
+    },
+    {
+      "name": "repr",
+      "docs": "Help on module repr:\n\nNAME\n    repr - Redo the builtin repr() (representation) but with limits on most sizes.\n\nFILE\n    /usr/lib/python2.7/repr.py\n\nMODULE DOCS\n    http://docs.python.org/library/repr\n\nCLASSES\n    Repr\n    \n    class Repr\n     |  Methods defined here:\n     |  \n     |  __init__(self)\n     |  \n     |  repr(self, x)\n     |  \n     |  repr1(self, x, level)\n     |  \n     |  repr_array(self, x, level)\n     |  \n     |  repr_deque(self, x, level)\n     |  \n     |  repr_dict(self, x, level)\n     |  \n     |  repr_frozenset(self, x, level)\n     |  \n     |  repr_instance(self, x, level)\n     |  \n     |  repr_list(self, x, level)\n     |  \n     |  repr_long(self, x, level)\n     |  \n     |  repr_set(self, x, level)\n     |  \n     |  repr_str(self, x, level)\n     |  \n     |  repr_tuple(self, x, level)\n\nFUNCTIONS\n    repr(self, x) method of Repr instance\n\nDATA\n    __all__ = ['Repr', 'repr']\n\n\n"
+    },
+    {
+      "name": "open",
+      "docs": "Help on built-in function open in module __builtin__:\n\nopen(...)\n    open(name[, mode[, buffering]]) -> file object\n    \n    Open a file using the file() type, returns a file object.  This is the\n    preferred way to open a file.  See file.__doc__ for further information.\n\n"
+    },
+    {
+      "name": "isinstance",
+      "docs": "Help on built-in function isinstance in module __builtin__:\n\nisinstance(...)\n    isinstance(object, class-or-type-or-tuple) -> bool\n    \n    Return whether an object is an instance of a class or of a subclass thereof.\n    With a type as second argument, return whether that is the object's type.\n    The form using a tuple, isinstance(x, (A, B, ...)), is a shortcut for\n    isinstance(x, A) or isinstance(x, B) or ... (etc.).\n\n"
+    },
+    {
+      "name": "hash",
+      "docs": "Help on built-in function hash in module __builtin__:\n\nhash(...)\n    hash(object) -> integer\n    \n    Return a hash value for the object.  Two objects with the same value have\n    the same hash value.  The reverse is not necessarily true, but likely.\n\n"
+    },
+    {
+      "name": "getattr",
+      "docs": "Help on built-in function getattr in module __builtin__:\n\ngetattr(...)\n    getattr(object, name[, default]) -> value\n    \n    Get a named attribute from an object; getattr(x, 'y') is equivalent to x.y.\n    When a default argument is given, it is returned when the attribute doesn't\n    exist; without it, an exception is raised in that case.\n\n"
+    },
+    {
+      "name": "raw_input",
+      "docs": "Help on built-in function raw_input in module __builtin__:\n\nraw_input(...)\n    raw_input([prompt]) -> string\n    \n    Read a string from standard input.  The trailing newline is stripped.\n    If the user hits EOF (Unix: Ctl-D, Windows: Ctl-Z+Return), raise EOFError.\n    On Unix, GNU readline is used if enabled.  The prompt string, if given,\n    is printed without a trailing newline before reading.\n\n"
+    },
+    {
+      "name": "input",
+      "docs": "Help on built-in function input in module __builtin__:\n\ninput(...)\n    input([prompt]) -> value\n    \n    Equivalent to eval(raw_input(prompt)).\n\n"
+    },
+    {
+      "name": "map",
+      "docs": "Help on built-in function map in module __builtin__:\n\nmap(...)\n    map(function, sequence[, sequence, ...]) -> list\n    \n    Return a list of the results of applying the function to the items of\n    the argument sequence(s).  If more than one sequence is given, the\n    function is called with an argument list consisting of the corresponding\n    item of each sequence, substituting None for missing values when not all\n    sequences have the same length.  If the function is None, return a list of\n    the items of the sequence (or a list of tuples if more than one sequence).\n\n"
+    },
+    {
+      "name": "reduce",
+      "docs": "Help on built-in function reduce in module __builtin__:\n\nreduce(...)\n    reduce(function, sequence[, initial]) -> value\n    \n    Apply a function of two arguments cumulatively to the items of a sequence,\n    from left to right, so as to reduce the sequence to a single value.\n    For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates\n    ((((1+2)+3)+4)+5).  If initial is present, it is placed before the items\n    of the sequence in the calculation, and serves as a default when the\n    sequence is empty.\n\n"
+    },
+    {
+      "name": "filter",
+      "docs": "Help on built-in function filter in module __builtin__:\n\nfilter(...)\n    filter(function or None, sequence) -> list, tuple, or string\n    \n    Return those items of sequence for which function(item) is true.  If\n    function is None, return the items that are true.  If sequence is a tuple\n    or string, return the same type, else return a list.\n\n"
+    },
+    {
+      "name": "hasattr",
+      "docs": "Help on built-in function hasattr in module __builtin__:\n\nhasattr(...)\n    hasattr(object, name) -> bool\n    \n    Return whether the object has an attribute with the given name.\n    (This is done by calling getattr(object, name) and catching exceptions.)\n\n"
+    },
+    {
+      "name": "pow",
+      "docs": "Help on built-in function pow in module __builtin__:\n\npow(...)\n    pow(x, y[, z]) -> number\n    \n    With two arguments, equivalent to x**y.  With three arguments,\n    equivalent to (x**y) % z, but may be more efficient (e.g. for longs).\n\n"
+    },
+    {
+      "name": "quit",
+      "docs": "Help on Quitter in module site object:\n\nquit = class Quitter(__builtin__.object)\n |  Methods defined here:\n |  \n |  __call__(self, code=None)\n |  \n |  __init__(self, name)\n |  \n |  __repr__(self)\n |  \n |  ----------------------------------------------------------------------\n |  Data descriptors defined here:\n |  \n |  __dict__\n |      dictionary for instance variables (if defined)\n |  \n |  __weakref__\n |      list of weak references to the object (if defined)\n\n"
+    },
+    {
+      "name": "sorted",
+      "docs": "Help on built-in function sorted in module __builtin__:\n\nsorted(...)\n    sorted(iterable, cmp=None, key=None, reverse=False) --> new sorted list\n\n"
+    },
+    {
+      "name": "issubclass",
+      "docs": "Help on built-in function issubclass in module __builtin__:\n\nissubclass(...)\n    issubclass(C, B) -> bool\n    \n    Return whether class C is a subclass (i.e., a derived class) of class B.\n    When using a tuple as the second argument issubclass(X, (A, B, ...)),\n    is a shortcut for issubclass(X, A) or issubclass(X, B) or ... (etc.).\n\n"
+    },
+    {
+      "name": "globals",
+      "docs": "Help on built-in function globals in module __builtin__:\n\nglobals(...)\n    globals() -> dictionary\n    \n    Return the dictionary containing the current scope's global variables.\n\n"
+    },
+    {
+      "name": "xrange",
+      "docs": "Help on class xrange in module __builtin__:\n\nclass xrange(object)\n |  xrange(stop) -> xrange object\n |  xrange(start, stop[, step]) -> xrange object\n |  \n |  Like range(), but instead of returning a list, returns an object that\n |  generates the numbers in the range on demand.  For looping, this is \n |  slightly faster than range() and more memory efficient.\n |  \n |  Methods defined here:\n |  \n |  __getattribute__(...)\n |      x.__getattribute__('name') <==> x.name\n |  \n |  __getitem__(...)\n |      x.__getitem__(y) <==> x[y]\n |  \n |  __iter__(...)\n |      x.__iter__() <==> iter(x)\n |  \n |  __len__(...)\n |      x.__len__() <==> len(x)\n |  \n |  __reduce__(...)\n |  \n |  __repr__(...)\n |      x.__repr__() <==> repr(x)\n |  \n |  __reversed__(...)\n |      Returns a reverse iterator.\n |  \n |  ----------------------------------------------------------------------\n |  Data and other attributes defined here:\n |  \n |  __new__ = <built-in method __new__ of type object>\n |      T.__new__(S, ...) -> a new object with type S, a subtype of T\n\n"
+    }
+  ]
+}

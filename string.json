@@ -1,0 +1,24 @@
+{
+  "prefixMethods": true,
+  "overview": "",
+  "inline_example": "import string as str\n\ntext = \"put interactive python anywhere on the web.\"\n\nprint \"\\ncapitalize:\"\nprint str.capitalize(text)\n\nprint \"\\ncapwords:\"\nprint str.capwords(text)\n\nlist = ['put', 'interactive', 'python', 'anywhere', 'on', 'the', 'web']\nprint \"\\njoin:\"\nprint str.join(list)\n\nprint \"\\njoin with a different separator:\"\nprint str.join(list, \" - \")\n\nprint \"\\nsplit:\"\nprint str.split(text)\n\nprint \"\\nsplit with a different separator:\"\ndashes = str.join(list, \" - \")\nprint str.split(dashes, \" - \")\n\nprint \"\\nsplit with a maxsplit:\"\nprint str.split(text, \" \", 4)",
+  "objectMethods": [
+    {
+      "name": "capitalize",
+      "docs": "Help on function capitalize in string:\n\nstring.capitalize = capitalize(s)\n    capitalize(s) -> string\n    \n    Return a copy of the string s with only its first character\n    capitalized.\n\n"
+    },
+    {
+      "name": "capwords",
+      "docs": "Help on function capwords in string:\n\nstring.capwords = capwords(s, sep=None)\n    capwords(s [,sep]) -> string\n    \n    Split the argument into words using split, capitalize each\n    word using capitalize, and join the capitalized words using\n    join.  If the optional second argument sep is absent or None,\n    runs of whitespace characters are replaced by a single space\n    and leading and trailing whitespace are removed, otherwise\n    sep is used to split and join the words.\n\n"
+    },
+    {
+      "name": "join",
+      "docs": "Help on function join in string:\n\nstring.join = join(words, sep=' ')\n    join(list [,sep]) -> string\n    \n    Return a string composed of the words in list, with\n    intervening occurrences of sep.  The default separator is a\n    single space.\n    \n    (joinfields and join are synonymous)\n\n"
+    },
+    {
+      "name": "split",
+      "docs": "Help on function split in string:\n\nstring.split = split(s, sep=None, maxsplit=-1)\n    split(s [,sep [,maxsplit]]) -> list of strings\n    \n    Return a list of the words in the string s, using sep as the\n    delimiter string.  If maxsplit is given, splits at no more than\n    maxsplit places (resulting in at most maxsplit+1 words).  If sep\n    is not specified or is None, any whitespace string is a separator.\n    \n    (split and splitfields are synonymous)\n\n"
+    }
+  ],
+  "classMethods": []
+}
